@@ -17,7 +17,10 @@ jobs:
       - uses: hashicorp/setup-terraform@v2
 
       - name: Write credentials.json
-        run: echo ${{ secrets.GOOGLE_CREDENTIALS }} > credentials.json
+        uses: jsdaniell/create-json@v1.2.2
+        with:
+          name: "credentials.json"
+          json: ${{ secrets.GOOGLE_CREDENTIALS }}
 
       - name: Terraform fmt
         id: fmt
