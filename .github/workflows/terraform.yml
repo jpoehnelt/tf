@@ -10,8 +10,6 @@ jobs:
     if: github.actor != 'dependabot[bot]'
     name: "Terraform"
     runs-on: ubuntu-latest
-    permissions:
-      pull-requests: write
     env:
       GOOGLE_APPLICATION_CREDENTIALS: ${{ github.workspace }}/credentials.json
     steps:
