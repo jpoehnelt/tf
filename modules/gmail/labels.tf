@@ -15,3 +15,9 @@ resource "gmailfilter_label" "work" {
   background_color = "#fb4c2f"
   text_color       = "#000000"
 }
+
+resource "gmailfilter_label" "running" {
+  name             = "running"
+  background_color = "#4a86e8"
+  text_color       = "#000000"
+}
