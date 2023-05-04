@@ -1,9 +1,13 @@
 # tf
 
+This repository contains Terraform code for managing my personal infrastructure including the following:
+
+- Gmail labels
+- Gmail filters
 
 ## Credentials
 
-Using Oauth2 credentials for GCP and Gmail API.  See [here](https://developers.google.com/identity/protocols/OAuth2) for more information.
+I am using Oauth2 credentials for GCP storage bucket state and the Workspace API.
 
 1. Create Oauth Client ID for Desktop Application
 1. Download JSON file for Oauth credentials
