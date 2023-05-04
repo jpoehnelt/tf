@@ -6,7 +6,3 @@ terraform {
     }
   }
 }
-
-provider "gmailfilter" {
-  # Configuration options
-}
