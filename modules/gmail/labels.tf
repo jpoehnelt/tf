@@ -21,3 +21,9 @@ resource "gmailfilter_label" "running" {
   background_color = "#4a86e8"
   text_color       = "#000000"
 }
+
+resource "gmailfilter_label" "qnap" {
+  name             = "qnap"
+  background_color = "#ffad47"
+  text_color       = "#000000"
+}
